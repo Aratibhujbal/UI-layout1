@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+.navbar {
+  margin: 0 135px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  padding: 42.5px 18px;
+}
+.menu ul li a:hover {
+  color: #49cbcd;
+  background: #e0eeee;
+}
+.banner {
+  height: 566px;
+  background-image: url("./images/banner.png");
+  text-align: center;
+}
+.banner
+.banner-text {
+  width: 680px;
+  margin: 0 auto;
+}
+.banner h1 {
+  font-size: 63px;
+  margin: 0 0 15px 0;
+  padding: 140px 0 0 0;
+}
+.banner p {
+  font-size: 23px;
+  width: 380px;
+  margin: 0 auto;
+}
+.banner,
+h1 p {
+  color: #fff;
+}
+.banner button a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 26px;
+  transition: all ease-in-out;
+}
+.banner button a:hover{
+  font-size: 28px;
+}
+.banner button{
+  margin: 58px 0 0 0;
+  background: none;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  width: 225px;
+  height: 63px;
+}
+.service {
+  display: flex;
+  margin: 0 135px;
+  height: 517px;
+  align-items: center;
+}
+.card-icon {
+  border: 4px solid #49cbcd;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.card-icon i {
+  font-size: 35px;
+  padding: 28px 0;
+}
+.card {
+  width: 292.5px;
+  text-align: center;
+}
+.card h4 {
+  font-size: 22px;
+  color: #4e525d;
+  margin: 48px 0 0 0;
+}
+.card p {
+  font-size: 14px;
+  color: #4e525d;
+  margin: 24px 0;
+}
+.card button {
+  background: #49cbcd;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.card button a {
+  text-decoration: none;
+  color: #e0eeee;
+  font-size: 14px;
+}
+.card button:hover {
+  background: #78e7e9;
+}
+.portfolio {
+  background: #f1f1f1;
+  height: 1030px;
+  padding: 35px 0 0 0;
+  text-align: center;
+}
+.portfolio h1 {
+  margin-bottom: 64px;
+  color: #4e525d;
+  font-size: 42px;
+}
+.portfolio-posters {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+}
+.portfolio-posters .poster img {
+  width: 370px;
+  height: 314px;
+  object-fit: cover;
+}
+.portfolio-posters .poster:nth-child(2) img {
+  margin: 0 30px;
+}
+.portfolio-posters {
+  margin-bottom: 30px;
+}
+.portfolio button a {
+  text-decoration: none;
+  color: #fff;
+}
+.portfolio button {
+  background: #49cbcd;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 11px 50px;
+}
+.portfolio button:hover {
+  background: #78e7e9;
+}
+.teamSection {
+  height: 600px;
+  text-align: center;
+}
+.team-detail {
+  margin: 0 135px;
+  display: flex;
+}
+.teamSection h1 {
+  color: #4e525d;
+  font-size: 42px;
+  margin: 90px 0 60px 0;
+}
+.team-detail .profile {
+  width: 180px;
+  height: 180px;
+  background: #eeeef0;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.card h3 {
+  margin-top: 60px;
+  font-size: 22px;
+  color: #4e525d;
+}
+.card h6 {
+  font-size: 16px;
+  color: #4e525d;
+}
+.contectSection {
+  height: 680px;
+  background-image: url("./images/contact.png");
+  padding-top: 102px;
+}
+.contectSection h1 {
+  font-size: 42px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 118px;
+}
+.contectSection .contact {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+.contact .social {
+  width: 585px;
+}
+.contact .form {
+  width: 585px;
+}
+.social h3 {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+}
+.social p {
+  font-size: 14px;
+  color: #ffffff;
+  width: 435px;
+}
+.contact .social-iocn {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+  margin: 37px 0 22px 0;
+}
+.social-iocn .icons {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  text-align: center;
+}
+.social-iocn .icons i {
+  margin-top: 11px;
+  font-size: 27px;
+}
+.social-iocn .icons:first-child {
+  background: #3b5997;
+}
+.social-iocn .icons:nth-child(2) {
+  background: #3ec2f3;
+}
+.social-iocn .icons:last-child {
+  background: #e44c41;
+}
+.form button {
+  background: #49cbcd;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  float: right;
+  margin-top: 30px;
+}
+.form button:hover {
+  background: #78e7e9;
+}
+.form button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+}
